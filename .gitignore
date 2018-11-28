@@ -1,5 +1,6 @@
 /astralsorcery
 /coremods
+/crash-reports
 /llibrary
 /local
 /logs
@@ -11,3 +12,5 @@
 crafttweaker.log
 icon.png
 options.txt
+usercache.json
+usernamecache.json
