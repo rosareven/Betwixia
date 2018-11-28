@@ -14,3 +14,6 @@ icon.png
 options.txt
 usercache.json
 usernamecache.json
+*.errored
+waypoints.txt
+config/jei/worldSettings.cfg
