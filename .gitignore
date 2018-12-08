@@ -16,6 +16,6 @@ usercache.json
 usernamecache.json
 *.errored
 waypoints.txt
-config/jei/worldSettings.cfg
-config/biomesoplenty/biomes/defaults/vanilla/*.json
-config/biomesoplenty/biomes/defaults/biomesoplenty/*.json
+/config/jei/worldSettings.cfg
+/config/biomesoplenty/biomes/defaults/vanilla/*.json
+/config/biomesoplenty/biomes/defaults/biomesoplenty/*.json
