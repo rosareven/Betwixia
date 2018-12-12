@@ -15,8 +15,8 @@ furnace.setFuel(<roots:bark_jungle>,200);
 furnace.setFuel(<roots:bark_dark_oak>,200);
 furnace.setFuel(<roots:bark_acacia>,200);
 #Roots knife alternative recipe
-recipes.addShaped(<roots:wood_knife>,[[null,<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<dynamictrees:oakseed>,<minecraft:planks>],[<minecraft:stick>,<minecraft:planks>,null]]);
-recipes.addShaped(<roots:stone_knife>,[[null,<minecraft:cobblestone>,<minecraft:cobblestone>],[<minecraft:cobblestone>,<dynamictrees:oakseed>,<minecraft:cobblestone>],[<minecraft:stick>,<minecraft:cobblestone>,null]]);
-recipes.addShaped(<roots:iron_knife>,[[null,<minecraft:iron_ingot>,<minecraft:iron_ingot>],[<minecraft:iron_ingot>,<dynamictrees:oakseed>,<minecraft:iron_ingot>],[<minecraft:stick>,<minecraft:iron_ingot>,null]]);
-recipes.addShaped(<roots:gold_knife>,[[null,<minecraft:gold_ingot>,<minecraft:gold_ingot>],[<minecraft:gold_ingot>,<dynamictrees:oakseed>,<minecraft:gold_ingot>],[<minecraft:stick>,<minecraft:gold_ingot>,null]]);
-recipes.addShaped(<roots:diamond_knife>,[[null,<minecraft:diamond>,<minecraft:diamond>],[<minecraft:diamond>,<dynamictrees:oakseed>,<minecraft:diamond>],[<minecraft:stick>,<minecraft:diamond>,null]]);
+recipes.addShaped(<roots:wood_knife>,[[null,<minecraft:planks:*>,<minecraft:planks:*>],[<minecraft:planks:*>,<ore:treeSapling>,<minecraft:planks:*>],[<minecraft:stick>,<minecraft:planks:*>,null]]);
+recipes.addShaped(<roots:stone_knife>,[[null,<minecraft:cobblestone>,<minecraft:cobblestone>],[<minecraft:cobblestone>,<ore:treeSapling>,<minecraft:cobblestone>],[<minecraft:stick>,<minecraft:cobblestone>,null]]);
+recipes.addShaped(<roots:iron_knife>,[[null,<minecraft:iron_ingot>,<minecraft:iron_ingot>],[<minecraft:iron_ingot>,<ore:treeSapling>,<minecraft:iron_ingot>],[<minecraft:stick>,<minecraft:iron_ingot>,null]]);
+recipes.addShaped(<roots:gold_knife>,[[null,<minecraft:gold_ingot>,<minecraft:gold_ingot>],[<minecraft:gold_ingot>,<ore:treeSapling>,<minecraft:gold_ingot>],[<minecraft:stick>,<minecraft:gold_ingot>,null]]);
+recipes.addShaped(<roots:diamond_knife>,[[null,<minecraft:diamond>,<minecraft:diamond>],[<minecraft:diamond>,<ore:treeSapling>,<minecraft:diamond>],[<minecraft:stick>,<minecraft:diamond>,null]]);
