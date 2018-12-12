@@ -1,3 +1,6 @@
+import crafttweaker.item.IItemTransformer;
+import crafttweaker.item.IItemCondition;
+
 #Replace Tipi Recipe (Bark and Buffalo Hide)
 recipes.remove(<totemic:tipi>);
 recipes.addShaped(<totemic:tipi>,[[null,<roots:bark_oak>,null],[<roots:bark_oak>,<totemic:buffalo_items:0>,<roots:bark_oak>],[<totemic:buffalo_items:0>,null,<totemic:buffalo_items:0>]]);
@@ -11,43 +14,9 @@ furnace.setFuel(<roots:bark_birch>,200);
 furnace.setFuel(<roots:bark_jungle>,200);
 furnace.setFuel(<roots:bark_dark_oak>,200);
 furnace.setFuel(<roots:bark_acacia>,200);
-#Roots bark recipe as alternative to breaking wood with knife
-val knife = <ore:knife>;
-knife.add(<dungeontactics:amethyst_knife>);
-knife.add(<dungeontactics:bronze_knife>);
-knife.add(<dungeontactics:copper_knife>);
-knife.add(<dungeontactics:crystal_knife>);
-knife.add(<dungeontactics:diamond_knife>);
-knife.add(<dungeontactics:electrum_knife>);
-knife.add(<dungeontactics:emerald_knife>);
-knife.add(<dungeontactics:gilded_knife>);
-knife.add(<dungeontactics:golden_knife>);
-knife.add(<dungeontactics:invar_knife>);
-knife.add(<dungeontactics:iron_knife>);
-knife.add(<dungeontactics:jewelled_knife>);
-knife.add(<dungeontactics:lead_knife>);
-knife.add(<dungeontactics:osmium_knife>);
-knife.add(<dungeontactics:peridot_knife>);
-knife.add(<dungeontactics:platinum_knife>);
-knife.add(<dungeontactics:ruby_knife>);
-knife.add(<dungeontactics:sapphire_knife>);
-knife.add(<dungeontactics:silver_knife>);
-knife.add(<dungeontactics:soulsteel_knife>);
-knife.add(<dungeontactics:steel_knife>);
-knife.add(<dungeontactics:stone_knife>);
-knife.add(<dungeontactics:tin_knife>);
-knife.add(<dungeontactics:titanium_knife>);
-knife.add(<dungeontactics:topaz_knife>);
-knife.add(<dungeontactics:tungsten_knife>);
-knife.add(<dungeontactics:wooden_knife>);
-knife.add(<roots:diamond_knife>);
-knife.add(<roots:gold_knife>);
-knife.add(<roots:iron_knife>);
-knife.add(<roots:stone_knife>);
-knife.add(<roots:wood_knife>);
-recipes.addShapeless(<roots:bark_oak>,[<minecraft:log>,knife.transformDamage()]);
-recipes.addShapeless(<roots:bark_spruce>,[<minecraft:log:1>,knife.transformDamage()]);
-recipes.addShapeless(<roots:bark_birch>,[<minecraft:log:2>,knife.transformDamage()]);
-recipes.addShapeless(<roots:bark_jungle>,[<minecraft:log:3>,knife.transformDamage()]);
-recipes.addShapeless(<roots:bark_dark_oak>,[<minecraft:log2:1>,knife.transformDamage()]);
-recipes.addShapeless(<roots:bark_acacia>,[<minecraft:log2>,knife.transformDamage()]);
+#Roots knife alternative recipe
+recipes.addShaped(<roots:wood_knife>,[[null,<minecraft:planks>,<minecraft:planks>],[<minecraft:planks>,<dynamictrees:oakseed>,<minecraft:planks>],[<minecraft:stick>,<minecraft:planks>,null]]);
+recipes.addShaped(<roots:stone_knife>,[[null,<minecraft:cobblestone>,<minecraft:cobblestone>],[<minecraft:cobblestone>,<dynamictrees:oakseed>,<minecraft:cobblestone>],[<minecraft:stick>,<minecraft:cobblestone>,null]]);
+recipes.addShaped(<roots:iron_knife>,[[null,<minecraft:iron_ingot>,<minecraft:iron_ingot>],[<minecraft:iron_ingot>,<dynamictrees:oakseed>,<minecraft:iron_ingot>],[<minecraft:stick>,<minecraft:iron_ingot>,null]]);
+recipes.addShaped(<roots:gold_knife>,[[null,<minecraft:gold_ingot>,<minecraft:gold_ingot>],[<minecraft:gold_ingot>,<dynamictrees:oakseed>,<minecraft:gold_ingot>],[<minecraft:stick>,<minecraft:gold_ingot>,null]]);
+recipes.addShaped(<roots:diamond_knife>,[[null,<minecraft:diamond>,<minecraft:diamond>],[<minecraft:diamond>,<dynamictrees:oakseed>,<minecraft:diamond>],[<minecraft:stick>,<minecraft:diamond>,null]]);
