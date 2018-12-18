@@ -5,8 +5,24 @@ import crafttweaker.item.IItemCondition;
 recipes.remove(<totemic:tipi>);
 recipes.addShaped(<totemic:tipi>,[[null,<roots:bark_oak>,null],[<roots:bark_oak>,<totemic:buffalo_items:0>,<roots:bark_oak>],[<totemic:buffalo_items:0>,null,<totemic:buffalo_items:0>]]);
 #Replace bed recipes
-recipes.remove(<minecraft:bed>);
-recipes.addShaped(<minecraft:bed>,[[<minecraft:wool>,<minecraft:wool>,<minecraft:wool>],[<totemic:stripped_cedar_log>,<totemic:stripped_cedar_log>,<totemic:stripped_cedar_log>]]);
+recipes.remove(<minecraft:bed:*>);
+recipes.addShaped(<minecraft:bed:0>,[[<minecraft:wool>,<minecraft:wool>,<minecraft:wool>],[<totemic:stripped_cedar_log>,<totemic:stripped_cedar_log>,<totemic:stripped_cedar_log>]]);
+recipes.addShapeless(<minecraft:bed:0>,[<minecraft:bed:*>,<ore:dyeWhite>,<ore:dyeWhite>,<ore:dyeWhite>]);
+recipes.addShapeless(<minecraft:bed:1>,[<minecraft:bed:*>,<minecraft:dye:14>,<minecraft:dye:14>,<minecraft:dye:14>]);
+recipes.addShapeless(<minecraft:bed:2>,[<minecraft:bed:*>,<minecraft:dye:13>,<minecraft:dye:13>,<minecraft:dye:13>]);
+recipes.addShapeless(<minecraft:bed:3>,[<minecraft:bed:*>,<minecraft:dye:12>,<minecraft:dye:12>,<minecraft:dye:12>]);
+recipes.addShapeless(<minecraft:bed:4>,[<minecraft:bed:*>,<minecraft:dye:11>,<minecraft:dye:11>,<minecraft:dye:11>]);
+recipes.addShapeless(<minecraft:bed:5>,[<minecraft:bed:*>,<minecraft:dye:10>,<minecraft:dye:10>,<minecraft:dye:10>]);
+recipes.addShapeless(<minecraft:bed:6>,[<minecraft:bed:*>,<minecraft:dye:9>,<minecraft:dye:9>,<minecraft:dye:9>]);
+recipes.addShapeless(<minecraft:bed:7>,[<minecraft:bed:*>,<minecraft:dye:8>,<minecraft:dye:8>,<minecraft:dye:8>]);
+recipes.addShapeless(<minecraft:bed:8>,[<minecraft:bed:*>,<ore:dyeLightGray>,<ore:dyeLightGray>,<ore:dyeLightGray>]);
+recipes.addShapeless(<minecraft:bed:9>,[<minecraft:bed:*>,<minecraft:dye:6>,<minecraft:dye:6>,<minecraft:dye:6>]);
+recipes.addShapeless(<minecraft:bed:10>,[<minecraft:bed:*>,<ore:dyePurple>,<ore:dyePurple>,<ore:dyePurple>]);
+recipes.addShapeless(<minecraft:bed:11>,[<minecraft:bed:*>,<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>]);
+recipes.addShapeless(<minecraft:bed:12>,[<minecraft:bed:*>,<ore:dyeBrown>,<ore:dyeBrown>,<ore:dyeBrown>]);
+recipes.addShapeless(<minecraft:bed:13>,[<minecraft:bed:*>,<ore:dyeGreen>,<ore:dyeGreen>,<ore:dyeGreen>]);
+recipes.addShapeless(<minecraft:bed:14>,[<minecraft:bed:*>,<ore:dyeRed>,<ore:dyeRed>,<ore:dyeRed>]);
+recipes.addShapeless(<minecraft:bed:15>,[<minecraft:bed:*>,<ore:dyeBlack>,<ore:dyeBlack>,<ore:dyeBlack>]);
 #Set burn time for bark items
 furnace.setFuel(<roots:bark_oak>,200);
 furnace.setFuel(<roots:bark_spruce>,200);
