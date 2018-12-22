@@ -20,3 +20,5 @@ waypoints.txt
 /config/biomesoplenty/biomes/defaults
 .ReAuth.cfg
 /backups
+/mods/LunatriusCore*.jar
+/mods/Schematica*.jar
