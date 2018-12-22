@@ -22,3 +22,6 @@ waypoints.txt
 /backups
 /mods/LunatriusCore*.jar
 /mods/Schematica*.jar
+/config/lunatriuscore.cfg
+/config/schematica.cfg
+/schematics
