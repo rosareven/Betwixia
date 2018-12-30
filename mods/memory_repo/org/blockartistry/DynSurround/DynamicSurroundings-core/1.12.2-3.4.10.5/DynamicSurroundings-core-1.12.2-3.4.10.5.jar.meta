@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Maven-Artifact: org.blockartistry.DynSurround:DynamicSurroundings-core
+ :1.12.2-3.4.10.5
+FMLCorePlugin: org.blockartistry.DynSurround.asm.TransformLoader
+
+Name: org/blockartistry/DynSurround/asm/PatchSoundManagerPlayTime.clas
+ s
+SHA-256-Digest: 2Dm0TvrdHlZ4BxRwxuf+bPaswvOzNVa2aophsObelb0=
+
+Name: org/blockartistry/DynSurround/asm/TransformLoader$Container.clas
+ s
+SHA-256-Digest: FB6RioGnzhKHFC40P9kKkTAjJ/4atj0zNutyTx2lA0c=
+
+Name: org/blockartistry/DynSurround/asm/TransformLoader.class
+SHA-256-Digest: YbP0qjLFfDaS/rnF8KcYhbPUV82ZzlmWTHp6a1lD41I=
+
+Name: org/blockartistry/DynSurround/asm/PatchParticleManagerSync.class
+SHA-256-Digest: 8Z2dRddZCu5hGPpG10YYs9mgjQ2uqiG1wmaCB1hqdz4=
+
+Name: org/blockartistry/DynSurround/asm/Transformer.class
+SHA-256-Digest: hun3PXW/Gw6BlMckUEMi1s+0Wz8C/g0CEPc7ibta9jo=
+
+Name: org/blockartistry/DynSurround/asm/MyTransformer.class
+SHA-256-Digest: pkfqfEa9rEG0dbyni1PUwz7t68OIF+LE/bWNOCIzUw0=
+
+Name: org/blockartistry/DynSurround/asm/Transmorgrifier.class
+SHA-256-Digest: BbQZ1XIVwz8SkXhKj98EgwaMphN9CHr2go1icC8yp9g=
+
+Name: org/blockartistry/DynSurround/asm/PatchWorldServer.class
+SHA-256-Digest: 4Gczz1+TUNYBAlpo5dqt2pjv0zqqCmdOu/Sows4u4T4=
+
+Name: org/blockartistry/DynSurround/asm/PatchSoundManagerClampVolume.c
+ lass
+SHA-256-Digest: 4Jp6QTFyYYHNSysLFwwgwu0ErzirrU/eFO9YPPMdowk=
+
+Name: org/blockartistry/DynSurround/asm/PatchEntityRenderer.class
+SHA-256-Digest: a8IyVVZWjwQ6BEHOig1SrXL+ATPdrFU6wXvWKFBJq8E=
+
+Name: org/blockartistry/DynSurround/asm/PatchSoundManager.class
+SHA-256-Digest: GyQH87TjK1Sa3dvrDhb1wz3h+6EQK7T/y609L1i++BE=
+
+Name: org/blockartistry/DynSurround/asm/PatchSoundManagerSync.class
+SHA-256-Digest: lCNbhsk5xYRnfL7KN/N3cql2Ycsfzj5zUTjQbdfpM+Q=
+
+Name: org/blockartistry/DynSurround/asm/PatchEntityArrow.class
+SHA-256-Digest: wo1iPl/twT7XUaMc9Z+4EQjh10imTKiu54YOy99BC8U=
+
+Name: org/blockartistry/DynSurround/asm/SoundPlayFlush.class
+SHA-256-Digest: +nb0VBlKXTqSh8I+IFoaI8/AdOknkAbcYeNNJgK9EQM=
+
